@@ -1,0 +1,478 @@
+description: "A new Flutter application."
+name: "flutterapp"
+version: "1.0.0+1"
+dependencies: 
+  cupertino_icons: "^0.1.2"
+  path_drawing: "^0.4.1"
+  flutter: 
+    sdk: "flutter"
+dev_dependencies: 
+  flutter_test: 
+    sdk: "flutter"
+environment: 
+  sdk: ">=2.1.0 <3.0.0"
+flutter: 
+  assets: 
+    - "assets/images/"
+  fonts: 
+    - 
+      family: "Teko"
+      fonts: 
+        - 
+          asset: "fonts/Teko-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Teko-300.ttf"
+          style: "normal"
+          weight: 300
+    - 
+      family: "Montserrat"
+      fonts: 
+        - 
+          asset: "fonts/Montserrat-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Montserrat-600.ttf"
+          style: "normal"
+          weight: 600
+        - 
+          asset: "fonts/Montserrat-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Montserrat-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Montserrat-300italic.ttf"
+          style: "italic"
+          weight: 300
+        - 
+          asset: "fonts/Montserrat-300.ttf"
+          style: "normal"
+          weight: 300
+        - 
+          asset: "fonts/Montserrat-800.ttf"
+          style: "normal"
+          weight: 800
+    - 
+      family: "Merienda"
+      fonts: 
+        - 
+          asset: "fonts/Merienda-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Lexend Deca"
+      fonts: 
+        - 
+          asset: "fonts/LexendDeca-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Roboto"
+      fonts: 
+        - 
+          asset: "fonts/Roboto-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Roboto-300.ttf"
+          style: "normal"
+          weight: 300
+        - 
+          asset: "fonts/Roboto-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Roboto-italic.ttf"
+          style: "italic"
+          weight: 400
+        - 
+          asset: "fonts/Roboto-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Roboto-900.ttf"
+          style: "normal"
+          weight: 900
+    - 
+      family: "Nunito"
+      fonts: 
+        - 
+          asset: "fonts/Nunito-800.ttf"
+          style: "normal"
+          weight: 800
+        - 
+          asset: "fonts/Nunito-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Nunito-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Nunito-600.ttf"
+          style: "normal"
+          weight: 600
+        - 
+          asset: "fonts/Nunito-300.ttf"
+          style: "normal"
+          weight: 300
+    - 
+      family: "Roboto Mono"
+      fonts: 
+        - 
+          asset: "fonts/RobotoMono-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/RobotoMono-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Righteous"
+      fonts: 
+        - 
+          asset: "fonts/Righteous-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Roboto Condensed"
+      fonts: 
+        - 
+          asset: "fonts/RobotoCondensed-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/RobotoCondensed-700.ttf"
+          style: "normal"
+          weight: 700
+    - 
+      family: "Revalia"
+      fonts: 
+        - 
+          asset: "fonts/Revalia-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Raleway"
+      fonts: 
+        - 
+          asset: "fonts/Raleway-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Raleway-600.ttf"
+          style: "normal"
+          weight: 600
+        - 
+          asset: "fonts/Raleway-700.ttf"
+          style: "normal"
+          weight: 700
+    - 
+      family: "Oswald"
+      fonts: 
+        - 
+          asset: "fonts/Oswald-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Open Sans"
+      fonts: 
+        - 
+          asset: "fonts/OpenSans-600.ttf"
+          style: "normal"
+          weight: 600
+        - 
+          asset: "fonts/OpenSans-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/OpenSans-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/OpenSans-italic.ttf"
+          style: "italic"
+          weight: 400
+        - 
+          asset: "fonts/OpenSans-600italic.ttf"
+          style: "italic"
+          weight: 600
+        - 
+          asset: "fonts/OpenSans-800.ttf"
+          style: "normal"
+          weight: 800
+    - 
+      family: "Red Hat Display"
+      fonts: 
+        - 
+          asset: "fonts/RedHatDisplay-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Sail"
+      fonts: 
+        - 
+          asset: "fonts/Sail-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Playfair Display"
+      fonts: 
+        - 
+          asset: "fonts/PlayfairDisplay-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/PlayfairDisplay-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Inter"
+      fonts: 
+        - 
+          asset: "fonts/Inter-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Inter-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Inter-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Inter-regular.ttf"
+          style: "italic"
+          weight: 400
+    - 
+      family: "Quicksand"
+      fonts: 
+        - 
+          asset: "fonts/Quicksand-500.ttf"
+          style: "normal"
+          weight: 500
+    - 
+      family: "Nunito Sans"
+      fonts: 
+        - 
+          asset: "fonts/NunitoSans-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/NunitoSans-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/NunitoSans-600.ttf"
+          style: "normal"
+          weight: 600
+        - 
+          asset: "fonts/NunitoSans-800.ttf"
+          style: "normal"
+          weight: 800
+        - 
+          asset: "fonts/NunitoSans-300.ttf"
+          style: "normal"
+          weight: 300
+    - 
+      family: "ABeeZee"
+      fonts: 
+        - 
+          asset: "fonts/ABeeZee-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/ABeeZee-italic.ttf"
+          style: "italic"
+          weight: 400
+    - 
+      family: "Noto Sans"
+      fonts: 
+        - 
+          asset: "fonts/NotoSans-regular.ttf"
+          style: "normal"
+          weight: 600
+        - 
+          asset: "fonts/NotoSans-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Lato"
+      fonts: 
+        - 
+          asset: "fonts/Lato-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Lato-regular.ttf"
+          style: "normal"
+          weight: 600
+        - 
+          asset: "fonts/Lato-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Lato-300.ttf"
+          style: "normal"
+          weight: 300
+        - 
+          asset: "fonts/Lato-900.ttf"
+          style: "normal"
+          weight: 900
+        - 
+          asset: "fonts/Lato-regular.ttf"
+          style: "normal"
+          weight: 500
+    - 
+      family: "Lora"
+      fonts: 
+        - 
+          asset: "fonts/Lora-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Lora-700italic.ttf"
+          style: "italic"
+          weight: 700
+    - 
+      family: "Comfortaa"
+      fonts: 
+        - 
+          asset: "fonts/Comfortaa-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Coda"
+      fonts: 
+        - 
+          asset: "fonts/Coda-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Sarabun"
+      fonts: 
+        - 
+          asset: "fonts/Sarabun-600.ttf"
+          style: "normal"
+          weight: 600
+    - 
+      family: "Titillium Web"
+      fonts: 
+        - 
+          asset: "fonts/TitilliumWeb-600.ttf"
+          style: "normal"
+          weight: 600
+        - 
+          asset: "fonts/TitilliumWeb-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/TitilliumWeb-italic.ttf"
+          style: "italic"
+          weight: 400
+        - 
+          asset: "fonts/TitilliumWeb-700.ttf"
+          style: "normal"
+          weight: 700
+    - 
+      family: "Patrick Hand"
+      fonts: 
+        - 
+          asset: "fonts/PatrickHand-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Asap Condensed"
+      fonts: 
+        - 
+          asset: "fonts/AsapCondensed-600.ttf"
+          style: "normal"
+          weight: 600
+    - 
+      family: "Asap"
+      fonts: 
+        - 
+          asset: "fonts/Asap-500.ttf"
+          style: "normal"
+          weight: 500
+    - 
+      family: "Poppins"
+      fonts: 
+        - 
+          asset: "fonts/Poppins-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Poppins-600.ttf"
+          style: "normal"
+          weight: 600
+        - 
+          asset: "fonts/Poppins-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Poppins-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Rubik"
+      fonts: 
+        - 
+          asset: "fonts/Rubik-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Rubik-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Rubik-700.ttf"
+          style: "normal"
+          weight: 700
+    - 
+      family: "Gothic A1"
+      fonts: 
+        - 
+          asset: "fonts/GothicA1-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/GothicA1-500.ttf"
+          style: "normal"
+          weight: 500
+    - 
+      family: "Play"
+      fonts: 
+        - 
+          asset: "fonts/Play-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Stylish"
+      fonts: 
+        - 
+          asset: "fonts/Stylish-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Ubuntu"
+      fonts: 
+        - 
+          asset: "fonts/Ubuntu-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Ubuntu-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Ubuntu-regular.ttf"
+          style: "normal"
+          weight: 400
+  uses-material-design: true
